@@ -1,4 +1,4 @@
-package web.controller;
+package com.beer.msscbeerservice.controller;
 
 import com.beer.msscbeerservice.web.model.BeerDto;
 import org.springframework.http.HttpStatus;
