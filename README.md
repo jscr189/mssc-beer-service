@@ -1,2 +1,2 @@
 # mssc-beer-service
-Microservice for Beer
+Spring Boot Microservice Demo
