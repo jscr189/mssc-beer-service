@@ -1,10 +1,13 @@
 package com.beer.msscbeerservice.web.mappers;
 
+import org.springframework.stereotype.Component;
+
 import java.sql.Timestamp;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 
-public class DateMapper {
+@Component
+public class DatesMapper {
     public OffsetDateTime asOffsetDateTime(Timestamp ts){
         if (ts != null){
             return OffsetDateTime.of(ts.toLocalDateTime().getYear(), ts.toLocalDateTime().getMonthValue(),
